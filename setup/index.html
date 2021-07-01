@@ -1,0 +1,23 @@
+<html><head></head>
+<body>
+
+<script>
+var url_base='https://docs.dataops.tk';
+var OSName="unknown";
+var query_string=document.location.search;
+var request_path=window.location.pathname.substr(1);
+url = url_base
+if (navigator.appVersion.indexOf("Win")!=-1) url=url_base+'/setup/windows';
+if (navigator.appVersion.indexOf("Mac")!=-1) url=url_base+'/setup/mac';
+if (navigator.appVersion.indexOf("X11")!=-1) url=url_base;   // No unix setup page yet.
+if (navigator.appVersion.indexOf("Linux")!=-1) url=url_base; // No unix setup page yet.
+
+var os_string='&os_id='+OSName;
+if (query_string == '') os_string='?os_id='+OSName;
+if (query_string.indexOf("os_id=")!=-1) os_string='';
+
+window.location.replace(url);
+
+</script>
+
+</body></html>
