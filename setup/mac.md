@@ -20,9 +20,8 @@ The package manager reduces the time to get software installed, saving hours of 
 2. **Docker** - to run containerized apps and create your own.
 3. **Git** - a version control platform used to store and manage code.
 4. **GitHub Desktop** - a friendly GUI which works with Git and GitHub.com.
-5. **Python** - a software language useful for developing new programs and scripts, and also used for its popular package manager `pip`, which allows users to install Python programs written by others.
-6. **Terraform** - the leading cross-platform solution for automating Infrastructure as Code (IaC).
-7. **VS Code** - a robust, fast, and lightweight development environment (IDE).
+5. **Python** - a software language useful for developing new programs and scripts, and also used for its popular package managers `pip` and `pipx`, which allows even non-developers to install and use Python programs written by others.
+6. **VS Code** - a robust, fast, and lightweight development environment (IDE).
 
 ## Installing Homebrew and Core Tools
 
@@ -44,8 +43,7 @@ The package manager reduces the time to get software installed, saving hours of 
 4. Install core tools:
 
    ```cmd
-   brew install cask docker python3 terraform
-   brew cask install cakebrew visual-studio-code
+   brew install docker python3 terraform cakebrew visual-studio-code
    ```
 
 ## Installing additional tools
@@ -55,20 +53,21 @@ After following the instructions from the above, you should now have the **Cakeb
 To install any additional programs, either open the **Cakebrew** app or copy-paste the below samples into a Terminal window. (You can also find additional packages at [https://brew.sh](https://brew.sh).)
 
 - `brew install awscli`
+- `brew install aws-sam-cli` **You might first need to run: `brew tap aws/tap`
 - `brew install azure-cli`
 - `brew install elasticsearch`
 - `brew install gradle`
-- `brew cask install anaconda`
-- `brew cask install dbeaver-community`
-- `brew cask install github`
-- `brew cask install google-chrome`
-- `brew cask install microsoft-teams`
-- `brew cask install pgadmin4`
-- `brew cask install r`
-- `brew cask install slack`
-- `brew install aws-sam-cli` **You might first need to run: `brew tap aws/tap`
-- `brew cask install selenium-server-standalone`
-- `brew cask install firefox`
+- `brew install --cask anaconda`
+- `brew install --cask dbeaver-community`
+- `brew install --cask firefox`
+- `brew install --cask github`
+- `brew install --cask google-chrome`
+- `brew install --cask microsoft-teams`
+- `brew install --cask pgadmin4`
+- `brew install --cask r`
+- `brew install --cask slack`
+- `brew install --cask selenium-server-standalone`
+- `brew install --cask terraform`
 
 ## Extra Credit: Create a GitHub Account
 
