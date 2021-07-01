@@ -20,9 +20,8 @@ The package manager reduces the time to get software installed, saving hours of 
 2. **Docker** - to run containerized apps and create your own.
 3. **Git** - a version control platform used to store and manage code.
 4. **GitHub Desktop** - a friendly GUI which works with Git and GitHub.com.
-5. **Python** - a software language useful for developing new programs and scripts, and also used for its popular package manager `pip`, which allows users to install Python programs written by others.
-6. **Terraform** - the leading cross-platform solution for automating Infrastructure as Code (IaC).
-7. **VS Code** - a robust, fast, and lightweight development environment (IDE).
+5. **Python** - a software language useful for developing new programs and scripts, and also used for its package managers `pip` and `pipx`, which allows even non-developers to install Python programs written by others.
+6. **VS Code** - a robust, fast, and lightweight development environment (IDE).
 
 ## Installing Chocolatey and Core Tools
 
@@ -38,18 +37,36 @@ The package manager reduces the time to get software installed, saving hours of 
 
     <a href="https://git-scm.com/"><img src="https://git-scm.com/images/logo@2x.png" alt="drawing" width="45" style="float: right"/></a>
 
-3. Install git:
+3. Install Git and Python if they are not already installed:
 
     ```cmd
     choco install -y git.install --params "/GitOnlyOnPath /SChannel /NoAutoCrlf /WindowsTerminal"
+    choco install -y python3
     ```
 
 4. Install core tools:
 
     ```cmd
-    choco install -y choco-protocol-support chocolateygui sudo terraform vscode github-desktop
-    choco install -y python3
+    choco install -y choco-protocol-support chocolateygui sudo vscode github-desktop
+    ```
+
+5. Install Docker (recommended):
+
+    ```cmd
     choco install -y docker-desktop
+    ```
+
+6. Install WSL2 for Linux support (recommended):
+
+    ```cmd
+    # Install WSL (Windows Subsystem for Linux) version 2:
+    choco install -y wsl2
+
+    # You may need to restart your machine before the next step:
+    choco install -y wsl-ubuntu-2004
+
+    # Finally test that WSL is working and initialize a username for your linux environment:
+    wsl
     ```
 
 - **NOTE:** See the [Troubleshooting](#troubleshooting) tips below if you run into any difficulties during this process.
@@ -60,9 +77,13 @@ Now that you have the core tools installed, you can click to install any of the 
 
 - [choco://7zip](choco://7zip)
 - [choco://anaconda3](choco://anaconda3) or [choco://miniconda](choco://miniconda)
+- [choco://atom](choco://atom)
 - [choco://awscli](choco://awscli)
 - [choco://azure-cli](choco://azure-cli)
+- [choco://azure-data-studio](choco://azure-data-studio)
+- [choco://db-visualizer](choco://db-visualizer)
 - [choco://dbeaver](choco://dbeaver)
+- [choco://ditto](choco://ditto)
 - [choco://firefox](choco://firefox)
 - [choco://filezilla](choco://filezilla)
 - [choco://github-desktop](choco://github-desktop)
@@ -77,18 +98,15 @@ Now that you have the core tools installed, you can click to install any of the 
 - [choco://notepad++](choco://notepadplusplus)
 - [choco://powerbi](choco://powerbi)
 - [choco://tableau-desktop](choco://tableau-desktop)
+- [choco://terraform](choco://terraform)
 - [choco://r.project](choco://r.project)
+- [choco://sublimetext3](choco://sublimetext3)
 - [choco://sql-server-management-studio](choco://sql-server-management-studio)
 - [choco://winmerge](choco://winmerge)
 - [choco://wsl](choco://wsl)
 - [choco://wsl2](choco://wsl2)
 - [choco://wsl-ubuntu-1804](choco://wsl-ubuntu-1804)
 - [choco://wsl-ubuntu-2004](choco://wsl-ubuntu-2004) (Samrat Update, Ubuntu 2004)
-- [choco://azure-data-studio](choco://azure-data-studio)
-- [choco://db-visualizer](choco://db-visualizer)
-- [choco://ditto](choco://ditto)
-- [choco://sublimetext3](choco://sublimetext3)
-- [choco://atom](choco://atom)
 
 ## Extra Credit: Create a GitHub Account
 
