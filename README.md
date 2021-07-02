@@ -14,3 +14,5 @@ To make sure you meet the requirements, please see one of the setup guides:
 ## Course Materials
 
 For the list of courses, please see our [Courses](./courses.md) page.
+
+For a listing of labs, please see the [Labs](.labs.md) index. Labs are also listed inline with the [course materials](./courses.md).
