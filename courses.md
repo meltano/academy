@@ -23,7 +23,7 @@
       - View Slides on Google Drive - _Coming soon!_
       - View Recording on YouTube - _Coming soon!_
       - Open Lab Materials - _Coming soon!_
-3. DevOps and CI/CD for data projects
+3. DevOps and CI/CD for data teams
       - View Slides on Google Drive - _Coming soon!_
       - View Recording on YouTube - _Coming soon!_
       - Open Lab Materials - _Coming soon!_
