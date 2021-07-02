@@ -12,9 +12,6 @@
 3. Build your own Tap with Meltano SDK and Python
       - [View Slides on Google Drive](https://docs.google.com/presentation/d/1Z9O5ndQUQewC3gq8A_FP8jnfv0OSBKOpU3Fmcjrrv6c/edit?usp=sharing)
       - View Recording on YouTube - _Coming soon!_
-4. Intro to DataOps and Meltano
-      - View Slides on Google Drive - _Coming soon!_
-      - View Recording on YouTube - _Coming soon!_
 
 ## Day Two
 
