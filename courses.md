@@ -30,14 +30,14 @@ CI/CD integration.
 ### Day Two Course Outline
 
 1. Data Transformation with dbt and Snowflake
-      - View Slides on Google Drive - _Coming soon!_
+      - [View Slides on Google Drive](https://docs.google.com/presentation/d/1TY83NMrOBvw3D0I3kxOFpoNoa44_o4WEtCtwcAsp2iQ/edit?usp=sharing)
       - View Recording on YouTube - _Coming soon!_
       - Open Lab Materials - _Coming soon!_
-2. Data practitioner's guide to source control and Git
-      - View Slides on Google Drive - _Coming soon!_
+2. Data practitioner's guide to source DevOps and CI/CD
+      - [View Slides on Google Drive](https://docs.google.com/presentation/d/1l512fLbUuCD2a3zK8Sq0tje6X4zkoDvn5Y7P0LanZyQ/edit?usp=sharing)
       - View Recording on YouTube - _Coming soon!_
       - Open Lab Materials - _Coming soon!_
-3. DevOps and CI/CD for data teams
-      - View Slides on Google Drive - _Coming soon!_
+3. End-to-End DataOps with Meltano
+      - [View Slides on Google Drive](https://docs.google.com/presentation/d/1YS7kudB3s4l2Io0XydbOj88YHJcb_4ltxKw05OmCjrQ/edit?usp=sharing)
       - View Recording on YouTube - _Coming soon!_
       - Open Lab Materials - _Coming soon!_
