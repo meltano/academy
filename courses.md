@@ -14,6 +14,13 @@ CI/CD integration.
 - Students should have an advanced understanding of the SQL query language.
 - Students should have experience in Snowflake (preferred) or a similar cloud-native SQL platform.
 
+### Intro Content
+
+1. Program Overview
+      - View Slides on Google Drive - _Coming soon!_
+2. Workstation Setup
+      - View Slides on Google Drive - _Coming soon!_
+
 ### Day One Course Outline
 
 1. Intro to Meltano and DataOps
