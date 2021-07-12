@@ -27,9 +27,10 @@ CI/CD integration.
       - [View Slides on Google Drive](https://docs.google.com/presentation/d/1wa9gJ0EYTZ--qoHn18wJ9pyRz6ARyV-0bqWdVNTBMek/edit?usp=sharing)
 2. Extract and Load with Singer
       - [View Slides on Google Drive](https://docs.google.com/presentation/d/1GBD-LJLLDQm1T53Vle5X42MMF0InZW3-W2VltxVywsw/edit?usp=sharing)
-      - [Open Lab Materials](https://docs.google.com/document/d/1DVIPTb_Puz9uI2vxSHmXymC2DeFXWJudBj57jQyIvMg)
+      - [Open Lab Materials](./labs/build_your_first_pipeline.md)
 3. Build your own Tap with Meltano SDK and Python
       - [View Slides on Google Drive](https://docs.google.com/presentation/d/1Z9O5ndQUQewC3gq8A_FP8jnfv0OSBKOpU3Fmcjrrv6c/edit?usp=sharing)
+      - [Open Lab Materials](./labs/build_your_own_tap.md)
 
 ### Day Two Course Outline
 
