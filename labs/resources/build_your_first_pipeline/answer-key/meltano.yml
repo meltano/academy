@@ -1,0 +1,33 @@
+version: 1
+send_anonymous_usage_stats: true
+project_id: 5eb968ed-22cb-4b72-b9e1-f857b22c624f
+plugins:
+  extractors:
+  - name: tap-carbon-intensity
+    variant: meltano
+    pip_url: git+https://gitlab.com/meltano/tap-carbon-intensity.git
+  loaders:
+  - name: target-jsonl
+    variant: andyh1203
+    pip_url: target-jsonl
+    config:
+      destination_path: ./output
+  - name: target-snowflake
+    variant: transferwise
+    pip_url: pipelinewise-target-snowflake
+  - name: target-bigquery
+    variant: adswerve
+    pip_url: git+https://github.com/adswerve/target-bigquery.git@v0.10.2
+schedules:
+- name: carbon-intensity-to-jsonl-daily
+  extractor: tap-carbon-intensity
+  loader: target-jsonl
+  transform: skip
+  interval: '@daily'
+  start_date: 2021-07-12 21:36:43.505974
+- name: carbon-intensity-to-snowflake
+  extractor: tap-carbon-intensity
+  loader: target-snowflake
+  transform: skip
+  interval: '@daily'
+  start_date: 2021-07-12 21:52:25.147648
