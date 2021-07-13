@@ -36,7 +36,7 @@ CI/CD integration.
 
 1. Data Transformation with dbt and Snowflake
       - [View Slides on Google Drive](https://docs.google.com/presentation/d/1TY83NMrOBvw3D0I3kxOFpoNoa44_o4WEtCtwcAsp2iQ/edit?usp=sharing)
-      - Open Lab Materials - _Coming soon!_
+      - [Open Lab Materials](./labs/data_transformation_with_dbt.md)
 2. Data practitioner's guide to source DevOps and CI/CD
       - [View Slides on Google Drive](https://docs.google.com/presentation/d/1l512fLbUuCD2a3zK8Sq0tje6X4zkoDvn5Y7P0LanZyQ/edit?usp=sharing)
       - Open Lab Materials - _Coming soon!_
