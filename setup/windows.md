@@ -27,7 +27,7 @@ The package manager reduces the time to get software installed, saving hours of 
 
 1. Open Command Prompt ("cmd.exe") as Administrator.
 
-    ![command-prompt-admin](../labs/resources/command-prompt-admin.gif)
+    ![command-prompt-admin](./resources/command-prompt-admin.gif)
 
 2. Paste and run the [Chocolatey.org](https://chocolatey.org/docs/installation#install-with-cmdexe) install script:
 
@@ -50,13 +50,7 @@ The package manager reduces the time to get software installed, saving hours of 
     choco install -y choco-protocol-support chocolateygui sudo vscode github-desktop
     ```
 
-5. Install Docker (recommended):
-
-    ```cmd
-    choco install -y docker-desktop
-    ```
-
-6. Install WSL2 for Linux support (recommended):
+5. Install WSL2 for Linux support (recommended):
 
     ```cmd
     # Install WSL (Windows Subsystem for Linux) version 2:
@@ -69,9 +63,17 @@ The package manager reduces the time to get software installed, saving hours of 
     wsl
     ```
 
+   - Note: When setting up your linux user account, you may use the same username as your Windows account, but please password updates will not be synced across these accounts.
+
+6. Install Docker (recommended):
+
+    ```cmd
+    choco install -y docker-desktop
+    ```
+
 - **NOTE:** See the [Troubleshooting](#troubleshooting) tips below if you run into any difficulties during this process.
 
-## Installing additional tools
+## Installing additional tools (Optional)
 
 Now that you have the core tools installed, you can click to install any of the below that would be useful for your project, or find additional packages using [chocolatey.org/packages](https://chocolatey.org/packages) index or the **ChocolateyGUI** Windows app.
 
@@ -125,6 +127,4 @@ If you run into issues during this process, here are some tips which might help:
 ## Related Links
 
 - [Mac Setup QuickStart](mac.md)
-- _You can alternatively try any of the URLs below to download and run the automated setup:_
-  - [https://docs.dataops.tk/setup/choco_min.bat](choco_min.bat) ([source](https://github.com/slalom-ggp/dataops-docs/blob/master/setup/choco_min.bat)) - Installs a bare-minimum set of tools to get started: `Chocolatey`, `python`, and `git`
-  - [https://docs.dataops.tk/setup/choco_devops.bat](choco_devops.bat) ([source](https://github.com/slalom-ggp/dataops-docs/blob/master/setup/choco_devops.bat)) - The above, plus additional development tools: `vscode`, `terraform`, and `docker`
+- A native Windows Package Manager ("winget") is coming soon. For more info see the [`winget-cli` GitHub Repo](https://github.com/microsoft/winget-cli)

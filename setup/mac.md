@@ -40,13 +40,19 @@ The package manager reduces the time to get software installed, saving hours of 
    brew install git
    ```
 
-4. Install core tools:
+4. Install dev tools:
 
    ```cmd
-   brew install docker python3 terraform cakebrew visual-studio-code
+   brew install python3 terraform cakebrew visual-studio-code
    ```
 
-## Installing additional tools
+5. Install docker.
+
+   ```cmd
+   brew install --cask docker
+   ```
+
+## Installing additional tools (Optional)
 
 After following the instructions from the above, you should now have the **Cakebrew** app installed, which gives a friendly GUI on top of the Homebrew installer.
 
