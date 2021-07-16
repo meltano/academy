@@ -34,16 +34,17 @@ The package manager reduces the time to get software installed, saving hours of 
 
    <a href="https://git-scm.com/"><img src="https://git-scm.com/images/logo@2x.png" alt="drawing" width="45" style="float: right"/></a>
 
-3. Install git.
+3. Install Git and Python if they are not already installed:
 
    ```cmd
    brew install git
+   brew install python3@3.8
    ```
 
-4. Install dev tools:
+4. Install additional tools, including VS Code:
 
    ```cmd
-   brew install python3 terraform cakebrew visual-studio-code
+   brew install cakebrew github-desktop visual-studio-code
    ```
 
 5. Install docker.

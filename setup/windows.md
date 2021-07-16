@@ -44,10 +44,10 @@ The package manager reduces the time to get software installed, saving hours of 
     choco install -y python3
     ```
 
-4. Install core tools:
+4. Install additional tools, including VS Code:
 
     ```cmd
-    choco install -y choco-protocol-support chocolateygui sudo vscode github-desktop
+    choco install -y sudo choco-protocol-support chocolateygui github-desktop vscode
     ```
 
 5. Install WSL2 for Linux support (recommended):
