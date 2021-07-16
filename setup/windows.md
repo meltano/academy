@@ -41,7 +41,7 @@ The package manager reduces the time to get software installed, saving hours of 
 
     ```cmd
     choco install -y git.install --params "/GitOnlyOnPath /SChannel /NoAutoCrlf /WindowsTerminal"
-    choco install -y python3
+    choco install -y python --version=3.8.10
     ```
 
 4. Install additional tools, including VS Code:
