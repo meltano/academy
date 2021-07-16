@@ -44,7 +44,7 @@ The package manager reduces the time to get software installed, saving hours of 
 4. Install additional tools, including VS Code:
 
    ```cmd
-   brew install cakebrew github-desktop visual-studio-code
+   brew install cakebrew github visual-studio-code
    ```
 
 5. Install docker.
