@@ -2,7 +2,7 @@
 
 <!-- markdownlint-disable MD033 - no-inline-html -->
 
-<a href="chocolatey.org"><img src="https://chocolatey.org/content/images/logo_square.svg" alt="drawing" width="100" style="float: right"/></a>
+<a href="chocolatey.org"><img src="https://chocolatey.org/assets/images/global-shared/logo-square.svg" alt="drawing" width="100" style="float: right"/></a>
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
