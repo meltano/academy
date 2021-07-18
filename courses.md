@@ -17,9 +17,9 @@ CI/CD integration.
 ### Intro Content
 
 1. Program Overview
-      - View Slides on Google Drive - _Coming soon!_
+      - [View Slides on Google Drive](https://docs.google.com/presentation/d/1zJKG9NWAUtNkhJwEtPJ_HnelDjY78k0uC_9A4MoQheI/edit?usp=sharing)
 2. Workstation Setup
-      - View Slides on Google Drive - _Coming soon!_
+      - View the guide for [Mac](https://gitlab.com/meltano/academy/-/blob/main/setup/mac.md) or [Windows](https://gitlab.com/meltano/academy/-/blob/main/setup/windows.md)
 
 ### Day One Course Outline
 
