@@ -42,4 +42,4 @@ CI/CD integration.
       - Open Lab Materials - _Coming soon!_
 3. End-to-End DataOps with Meltano
       - [View Slides on Google Drive](https://docs.google.com/presentation/d/1YS7kudB3s4l2Io0XydbOj88YHJcb_4ltxKw05OmCjrQ/edit?usp=sharing)
-      - Open Lab Materials - _Coming soon!_
+      - [Open Lab Materials](https://gitlab.com/meltano/academy/-/blob/main/labs/end_to_end_cicd.md)
