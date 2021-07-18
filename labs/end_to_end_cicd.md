@@ -102,16 +102,16 @@ jobs:
 # Step 4: Add CI/CD Credentials and retry the job
 
 1. Click on the `Settings` tab and then select `Secrets` from the left-hand navigation pane.
-2. Select `New Repository Secret` and create a secret named (exactly) `TARGET_SNOWFLAKE__USERNAME` and enter your username in the space provided.
+2. Select `New Repository Secret` and create a secret named (exactly) `TARGET_SNOWFLAKE_USERNAME` and enter your username in the space provided.
    - Note that after you've saved a repository secret, it cannot be viewed again from the Web UI.
      This is for your security.
 3. Repeat these steps until all of the following secrets are set:
-   - `TARGET_SNOWFLAKE__ACCOUNT`
-   - `TARGET_SNOWFLAKE__DATABASE`
-   - `TARGET_SNOWFLAKE__PASSWORD`
-   - `TARGET_SNOWFLAKE__ROLE`
-   - `TARGET_SNOWFLAKE__USERNAME`
-   - `TARGET_SNOWFLAKE__WAREHOUSE`
+   - `TARGET_SNOWFLAKE_ACCOUNT`
+   - `TARGET_SNOWFLAKE_DATABASE`
+   - `TARGET_SNOWFLAKE_PASSWORD`
+   - `TARGET_SNOWFLAKE_ROLE`
+   - `TARGET_SNOWFLAKE_USERNAME`
+   - `TARGET_SNOWFLAKE_WAREHOUSE`
 4. Once all of the repository secrets are entered, go back to your failed job and select the
    option to re-run the failed job.
 
