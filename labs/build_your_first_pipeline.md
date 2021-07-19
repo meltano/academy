@@ -11,17 +11,37 @@ Windows users should have WSL2 installed. (May require a restart.)
 For Snowflake access, you will require the following information:
 
 ```yml
-- snowflake_account   - account to use when loading data.
-- snowflake_warehouse - warehouse to use when loading data.
-- snowflake_database  - database to load data into.
-- snowflake_schema    - schema to load data into.
-- snowflake_username  - username for connecting.
-- snowflake_password  - password for connecting.
-- snowflake_role      - the role to run loads under.
-- file_format_name    - the name of a created CSV file format with schema prefix.
+# ...
+# Excerpted from a sample meltano.yml. Your config should be similar to this:
+loaders:
+  - name: target-snowflake
+    variant: datamill-co
+    pip_url: target-snowflake
+    config:
+      snowflake_account: slalom_training
+      snowflake_database: SWIFT_DB
+      snowflake_role: TRAINING_ROLE
+      snowflake_schema: PUBLIC
+      snowflake_username: SWIFT
+      snowflake_warehouse: SWIFT_WH
 ```
 
-## Step 1. Install Meltano
+## Step 1. Install Meltano and Initialize a new Meltano project
+
+### Option A: Open a pre-built dev container
+
+Navigate to the sample project, click `Open in VS Code`, and then select the option for opening in a Docker container.
+
+### Option B: Install locally on your laptop
+
+Install pipx if needed:
+
+```bash
+python -m pip install pipx
+python -m pipx ensurepath
+```
+
+Install meltano:
 
 ```bash
 > pipx install meltano
@@ -33,7 +53,7 @@ Confirm your version:
 > meltano --version
 ```
 
-## Step 2. Initialize a new Meltano project
+### Step 2. 
 
 ```bash
 # Create a Source folder if you haven't already
@@ -123,8 +143,15 @@ plugins:
     config:
       destination_path: ./output
   - name: target-snowflake
-    variant: transferwise
-    pip_url: pipelinewise-target-snowflake
+    variant: datamill-co
+    pip_url: target-snowflake
+    config:
+      snowflake_account: slalom_training
+      snowflake_database: SWIFT_DB
+      snowflake_role: TRAINING_ROLE
+      snowflake_schema: PUBLIC
+      snowflake_username: SWIFT
+      snowflake_warehouse: SWIFT_WH
   - name: target-bigquery
     variant: adswerve
     pip_url: git+https://github.com/adswerve/target-bigquery.git@v0.10.2
