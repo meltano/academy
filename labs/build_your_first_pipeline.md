@@ -11,13 +11,6 @@ Windows users should have WSL2 installed. (May require a restart.)
 For Snowflake access, you will require the following information:
 
 ```yml
-# ...
-# Excerpted from a sample meltano.yml. Your config should be similar to this:
-loaders:
-  - name: target-snowflake
-    variant: datamill-co
-    pip_url: target-snowflake
-    config:
       snowflake_account: slalom_training
       snowflake_database: SWIFT_DB
       snowflake_role: TRAINING_ROLE
