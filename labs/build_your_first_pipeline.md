@@ -102,7 +102,7 @@ Every DataOps environment should have at least one modern data platform which su
 Let’s add Snowflake as a target:
 
 ```bash
-> meltano add target-snowflake
+> meltano add loader target-snowflake
 ```
 
 Open the Web GUI to update your target settings, or use the configuration guide here: https://hub.meltano.com/loaders/snowflake.html 
