@@ -73,6 +73,15 @@ The package manager reduces the time to get software installed, saving hours of 
 
 - **NOTE:** See the [Troubleshooting](#troubleshooting) tips below if you run into any difficulties during this process.
 
+## Test drive a Linux Dev Container in VS Code
+
+To prove that Docker and VS Code are working correctly, let's open a Dev Container in VS Code using a GitHub project's `Open in VS Code` badge.
+
+1. Open the GitHub repo here: https://github.com/meltano/meltano-cicd-lab-template
+2. Click on the `Open in VS Code` badge.
+3. Follow the guided steps to open the dev container, installing any missing components if prompted.
+4. Test that the Linux container is working correctly by copy-pasting the sample code from the repo's readme into the VS Code terminal window.
+
 ## Installing additional tools (Optional)
 
 Now that you have the core tools installed, you can click to install any of the below that would be useful for your project, or find additional packages using [chocolatey.org/packages](https://chocolatey.org/packages) index or the **ChocolateyGUI** Windows app.
