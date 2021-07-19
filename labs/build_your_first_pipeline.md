@@ -46,7 +46,7 @@ Confirm your version:
 > meltano --version
 ```
 
-### Step 2. 
+Now initialize a new project.
 
 ```bash
 # Create a Source folder if you haven't already
@@ -57,7 +57,7 @@ meltano init meltano-lab-project
 cd meltano-lab-project
 ```
 
-## Step 3. Installing the sample taps and targets
+## Step 2. Installing the sample taps and targets
 
 Install a tap for the National Grid ESO's Carbon Emissions Intensity API:
 
@@ -83,7 +83,7 @@ Run the pipeline and check that everything is working correctly:
 
 Congratulations! You have successfully tested your sample pipeline. Now let’s connect a real target.
 
-## Step 4: Scheduling via Meltano Web GUI
+## Step 3: Scheduling via Meltano Web GUI
 
 ```bash
 > meltano ui start
@@ -95,7 +95,7 @@ Once you’ve opened the web UI, explore the available UI options to add new ext
 
 Create and test a new daily schedule for your Carbon Intensity extractor.
 
-## Step 5. Install and configure your SQL data target
+## Step 4. Install and configure your SQL data target
 
 Every DataOps environment should have at least one modern data platform which supports the SQL language. For this example, we will use Snowflake as our SQL data platform.
 
@@ -113,7 +113,7 @@ Test your new target to ensure credentials are correct and data is able to be lo
 > meltano elt tap-carbon-intensity target-snowflake
 ```
 
-## Step 6: Review the contents of `meltano.yml`
+## Step 5: Review the contents of `meltano.yml`
 
 At this point, it is helpful to review the contents of meltano.yml since all of the changes you made in the UI or the CLI have all been stored there in the file. Also, if you had any typos along the way, many mistakes can be fixed by simply modifying the text in this file.
 
