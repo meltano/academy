@@ -23,7 +23,7 @@ For Snowflake access, you will require the following information:
 
 ### Option A: Open a pre-built dev container
 
-Navigate to the sample project, click `Open in VS Code`, and then select the option for opening in a Docker container.
+Navigate to the [sample project](https://github.com/meltano/meltano-dev-container-template), click `Open in VS Code`, and then select the option for opening in a Docker container.
 
 ### Option B: Install locally on your laptop
 
