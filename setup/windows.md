@@ -53,15 +53,15 @@ The package manager reduces the time to get software installed, saving hours of 
 5. Install WSL2 for Linux support (recommended):
 
     ```cmd
-    # Install WSL (Windows Subsystem for Linux) version 2:
+    # Step 1: Install WSL (Windows Subsystem for Linux) version 2:
     choco install -y wsl2
 
     # Note: You may need to restart your machine before continuing
 
-    # Set WSL2 as the default version:
+    # Step 2: Set WSL2 as the default version:
     wsl --set-default-version 2
 
-    # Install Ubuntu Linux:
+    # Step 3: Install Ubuntu Linux:
     # Note: Depending on your Windows version you might be prompted to install
     # a patch update to the WSL Kernel. Follow the prompts if so.
     choco install -y wsl-ubuntu-2004
