@@ -56,20 +56,25 @@ The package manager reduces the time to get software installed, saving hours of 
     # Install WSL (Windows Subsystem for Linux) version 2:
     choco install -y wsl2
 
-    # NOTE: You may need to restart your machine before continuing
+    # Note: You may need to restart your machine before continuing
 
-    # Set WSL2 as the default and install Ubuntu:
+    # Set WSL2 as the default version:
     wsl --set-default-version 2
+
+    # Install Ubuntu Linux:
+    # Note: Depending on your Windows version you might be prompted to install
+    # a patch update to the WSL Kernel. Follow the prompts if so.
     choco install -y wsl-ubuntu-2004
     ```
-   - After completing the above steps, launch "Ubuntu" from the Start menu and initialize your linux admin user account.
-   - Note: When setting up your linux admin user account, you may choose to use the same username as your Windows account, but password updates will not be synced across these accounts.
+   - After completing the above steps, launch "Ubuntu" from the Start menu and then initialize your linux admin user account.
+     - Note: When setting up your linux admin user account, you may choose to use the same username as your Windows account, but password updates will not be synced across these accounts.
 
 6. Install Docker:
 
     ```cmd
     choco install -y docker-desktop
     ```
+    - Launch Docker Desktop from the start menu and restart your machine if prompted to do so.
 
 - **NOTE:** See the [Troubleshooting](#troubleshooting) tips below if you run into any difficulties during this process.
 
