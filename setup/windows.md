@@ -134,9 +134,8 @@ For extra credit, visit [GitHub.com](https://github.com/) and register a new acc
 
 If you run into issues during this process, here are some tips which might help:
 
-1. If the batch script approach does not appear to be working, it may be caused by security protections. Try the manual approach of copy-pasting the needed install command, and also make sure you are running the command prompt "as administrator".
-2. If the manual approach still does not work, try again to copy-paste the command [from here](https://chocolatey.org/docs/installation#install-with-cmdexe) on the Chocolatey.org website. _(The install command does not change often, but very occasionally there are security patches which require small adjustments to that process.)_
-3. If all else fails or if you find a bug in this documentation, please [click here to report the issue as a bug](https://github.com/slalom-ggp/dataops-docs/issues/new). So that we can provide the fastest response possible, please be sure to paste your error message and any other symptoms which may help in the debugging process.
+1. If the Chocolatey install does not work, try copy-pasting the command [from here](https://chocolatey.org/docs/installation#install-with-cmdexe) on the Chocolatey.org website. _(The install command does not change often, but very occasionally there are security patches which require small adjustments to the install process.)_
+3. If all else fails or if you find a bug in this documentation, please [click here to report the issue as a bug](https://gitlab.com/meltano/academy/-/issues/new). Please be sure to paste your error message and any other symptoms which may help in the debugging process.
 
 ## Related Links
 
