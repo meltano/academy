@@ -110,7 +110,7 @@ Open the Web GUI to update your target settings, or use the configuration guide 
 Test your new target to ensure credentials are correct and data is able to be loaded.
 
 ```bash
-> `meltano elt tap-carbon-intensity target-snowflake
+> meltano elt tap-carbon-intensity target-snowflake
 ```
 
 ## Step 6: Review the contents of `meltano.yml`
