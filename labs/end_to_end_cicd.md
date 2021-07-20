@@ -27,7 +27,7 @@ but this lab will assume you are using Snowflake.
 ## Step 1: Start a new Project
 
 To start, you will create your own personal duplicate of the sample project. Navigate
-to the template project here and then click on the green "Use this template" button.
+to the [template project here](https://github.com/meltano/meltano-cicd-lab-template) and then click on the green "Use this template" button.
 
 - If prompted, select your personal username as the owner for your new project.
 - For "Repository name" you can use any name you'd like, for example "AJ's CICD Lab"
