@@ -42,7 +42,7 @@ to the template project here and then click on the green "Use this template" but
     - Click on the new CI/CD job name to view its details.
     - Within a minute or two, you should see a green checkmark, indicating the CI build was successful.
 
-## Step 3: Add two steps to the pipeline
+## Step 3: Add two setup steps to the pipeline
 
 1. Open your yml file in the `/.github/workflows` folder and click "Edit".
 2. At the bottom of the file, copy-paste the below two steps:
@@ -71,7 +71,27 @@ to the template project here and then click on the green "Use this template" but
 
 5. Click the "Actions" tab again and confirm that the job executes successfully (green checkmark).
 
-## Step 4: Upload the EL output to job artifacts
+## Step 4: Add a step to extract data from a tap
+
+1. Open your yml file in the `/.github/workflows` folder and click "Edit".
+2. At the bottom of the file, copy-paste the below extract-load step:
+
+<!-- <details>
+<summary>Steps to install Python, Meltano, and other depenendencies</summary>
+
+</details> -->
+
+```yml
+      # Run the pipeline using meltano
+      - name: Run the extract-load pipeline
+        run: |
+          meltano elt tap-carbon-intensity target-jsonl
+          echo "Extract-load completed successfully!"
+```
+
+3. As before, click the "Actions" tab again and confirm that the job executes successfully (green checkmark).
+
+## Step 5: Upload the EL output to job artifacts
 
 1. Open your yml file in the `/.github/workflows` folder and click "Edit".
 2. At the bottom of the file, copy-paste the below final step:
