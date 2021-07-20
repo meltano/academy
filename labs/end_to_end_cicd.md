@@ -94,6 +94,8 @@ to the template project here and then click on the green "Use this template" but
           retention-days: 2  # Remove artifacts after 2 days
 ```
 
+3. As before, click the "Actions" tab again and confirm that the job executes successfully (green checkmark).
+
 <!-- Skipping this step due to support requirements of securing CI env vars for each student
 
 ## Step 4: Modify the workflow to use the Snowflake profile
