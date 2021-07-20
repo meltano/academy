@@ -16,11 +16,13 @@ This lab requires you to have a GitHub account. Please create an account if you 
 have one already. You can request a password reset email from GitHub if you do not remember
 your credentials.
 
+<!-- 
 ### Snowflake Account
 
 This lab assumes you have a Snowflake account you can use in your data pipeline. Other
 SQL platforms can be used with some alteration of the steps and the profile definitions,
-but this lab will assume you are using Snowflake.
+but this lab will assume you are using Snowflake. 
+-->
 
 ## Step 1: Start a new Project
 
