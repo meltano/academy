@@ -39,7 +39,6 @@ CI/CD integration.
       - [Open Lab Materials](./labs/data_transformation_with_dbt.md)
 2. Data practitioner's guide to source DevOps and CI/CD
       - [View Slides on Google Drive](https://docs.google.com/presentation/d/1l512fLbUuCD2a3zK8Sq0tje6X4zkoDvn5Y7P0LanZyQ/edit?usp=sharing)
-      - Open Lab Materials - _Coming soon!_
 3. End-to-End DataOps with Meltano
       - [View Slides on Google Drive](https://docs.google.com/presentation/d/1YS7kudB3s4l2Io0XydbOj88YHJcb_4ltxKw05OmCjrQ/edit?usp=sharing)
       - [Open Lab Materials](https://gitlab.com/meltano/academy/-/blob/main/labs/end_to_end_cicd.md)
