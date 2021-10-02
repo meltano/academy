@@ -4,22 +4,21 @@ Adapted from: [Meltano Tutorial - Transform and Analyze Postgres Data](https://m
 
 ## Prerequisites
 
-Python, pip, and pipx should be installed on your computer.
-You should have a code editor installed. (VS Code will be used in our examples.)
-Windows users should have WSL2 installed. (May require a restart.)
+- Python, pip, and pipx should be installed on your computer.
+- You should have a code editor installed. (VS Code will be used in our examples.)
+- Windows users should have WSL2 installed. (May require a restart.)
+- For Snowflake access, you will require the following information:
 
-For Snowflake access, you will require the following information:
-
-```yml
-- snowflake_account   - account to use when loading data.
-- snowflake_warehouse - warehouse to use when loading data.
-- snowflake_database  - database to load data into.
-- snowflake_schema    - schema to load data into.
-- snowflake_username  - username for connecting.
-- snowflake_password  - password for connecting.
-- snowflake_role      - the role to run loads under.
-- file_format_name    - the name of a created CSV file format with schema prefix.
-```
+    ```yml
+    - snowflake_account   - account to use when loading data.
+    - snowflake_warehouse - warehouse to use when loading data.
+    - snowflake_database  - database to load data into.
+    - snowflake_schema    - schema to load data into.
+    - snowflake_username  - username for connecting.
+    - snowflake_password  - password for connecting.
+    - snowflake_role      - the role to run loads under.
+    - file_format_name    - the name of a created CSV file format with schema prefix.
+    ```
 
 ## Step 1. Install Meltano
 
