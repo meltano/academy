@@ -29,7 +29,7 @@ The package manager reduces the time to get software installed, saving hours of 
 2. Paste and run the [Homebrew](https://brew.sh) install script:
 
    ```bash
-   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   /bin/bash -c "$(curl -k -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 
    <a href="https://git-scm.com/"><img src="https://git-scm.com/images/logo@2x.png" alt="drawing" width="45" style="float: right"/></a>
@@ -38,7 +38,7 @@ The package manager reduces the time to get software installed, saving hours of 
 
    ```cmd
    brew install git
-   brew install python3@3.8
+   brew install python@3.8
    ```
 
 4. Install additional tools, including VS Code:

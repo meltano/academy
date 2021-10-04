@@ -40,7 +40,7 @@ The package manager reduces the time to get software installed, saving hours of 
 3. Install Git and Python if they are not already installed:
 
     ```cmd
-    choco install -y git.install --params "/GitOnlyOnPath /SChannel /NoAutoCrlf /WindowsTerminal"
+    choco install -y git --params "/GitOnlyOnPath /SChannel /NoAutoCrlf /WindowsTerminal"
     choco install -y python --version=3.8.10
     ```
 
@@ -66,6 +66,7 @@ The package manager reduces the time to get software installed, saving hours of 
     # a patch update to the WSL Kernel. Follow the prompts if so.
     choco install -y wsl-ubuntu-2004
     ```
+
    - After completing the above steps, launch "Ubuntu" from the Start menu and then initialize your linux admin user account.
      - Note: When setting up your linux admin user account, you may choose to use the same username as your Windows account, but password updates will not be synced across these accounts.
 
@@ -74,6 +75,7 @@ The package manager reduces the time to get software installed, saving hours of 
     ```cmd
     choco install -y docker-desktop
     ```
+
     - Launch Docker Desktop from the start menu and restart your machine if prompted to do so.
 
 - **NOTE:** See the [Troubleshooting](#troubleshooting) tips below if you run into any difficulties during this process.
