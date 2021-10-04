@@ -7,6 +7,8 @@ Adapted from: [Meltano Tutorial - Transform and Analyze Postgres Data](https://m
 - Python, pip, and pipx should be installed on your computer.
 - You should have a code editor installed. (VS Code will be used in our examples.)
 - Windows users should have WSL2 installed. (May require a restart.)
+- If you do not have a Snowflake environment to use, you may instead use SQLite,
+  which is a file-based relational database.
 - For Snowflake access, you will require the following information:
 
     ```yml
