@@ -7,6 +7,9 @@ Adapted from: [Meltano Tutorial - Transform and Analyze Postgres Data](https://m
 - Python, pip, and pipx should be installed on your computer.
 - You should have a code editor installed. (VS Code will be used in our examples.)
 - Windows users should have WSL2 installed. (May require a restart.)
+
+### Snowflake Prereqs
+
 - For Snowflake access, you will require the following information:
 
     ```yml
@@ -30,6 +33,10 @@ Adapted from: [Meltano Tutorial - Transform and Analyze Postgres Data](https://m
           snowflake_username: SWIFT
           snowflake_warehouse: SWIFT_WH
     ```
+
+### Spark Prereqs
+
+- TK - List of settings needed.
 
 ## Step 1. Install Meltano and Initialize a new Meltano project
 
@@ -109,9 +116,11 @@ Create and test a new daily schedule for your Carbon Intensity extractor.
 
 ## Step 4. Install and configure your SQL data target
 
-Every DataOps environment should have at least one modern data platform which supports the SQL language. For this example, we will use Snowflake as our SQL data platform.
+### Loading to Snowflake
 
-Let’s add Snowflake as a target:
+Every DataOps environment should have at least one modern data platform which supports the SQL language. For this example, we will can use either Snowflake or Apache Spark as our SQL data platform.
+
+To load data to Snowflake, we'll use `target-snowflake`:
 
 ```bash
 > meltano add loader target-snowflake
@@ -125,12 +134,24 @@ Test your new target to ensure credentials are correct and data is able to be lo
 > meltano elt tap-carbon-intensity target-snowflake
 ```
 
+### Loading to Spark
+
+To load data to Spark, we'll use `target-s3-csv`:
+
+<!-- TK - Still evaluating -->
+
+```bash
+> meltano add loader target-s3-csv
+```
+
 ## Step 5: Review the contents of `meltano.yml`
 
 At this point, it is helpful to review the contents of meltano.yml since all of the changes you made in the UI or the CLI have all been stored there in the file. Also, if you had any typos along the way, many mistakes can be fixed by simply modifying the text in this file.
 
 <details>
 <summary>Example “Solution” File:</summary>
+
+<!-- TK - The below needs a spark equivalent loader config -->
 
 ```yml
 version: 1
@@ -176,7 +197,6 @@ schedules:
 ```
 
 </details>
-
 
 ## Wrap Up
 
